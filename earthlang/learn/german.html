@@ -1,0 +1,151 @@
+<!-- templates/german.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Earthlang | German</title>
+
+    <a href="Users/gg/Documents/Earthlang/Frontend/earthlang/earthlang/learn/german.html">German</a>
+    <a href="german">German</a>
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/design.css' %}">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+</head>
+<body>
+
+<div class="loader">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       width="34px" height="40px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+      <rect x="0" y="10" width="4" height="10" fill="#333" opacity="0.2">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.8s" repeatCount="indefinite" />
+      </rect>
+      <rect x="8" y="10" width="4" height="10" fill="#333"  opacity="0.2">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+      </rect>
+      <rect x="16" y="10" width="4" height="10" fill="#333"  opacity="0.2">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+      </rect>
+    </svg>
+  </div>
+
+  <header id="#top">
+
+      <nav class="main-navigation navbar navbar-expand-lg dark">
+          <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="{%static 'assets/images/earthlang-logo-bluewestern-resize.png' %}" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="spanish">Spanish</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="french">French</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="german">German</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="chinese">Chinese</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+
+  </header>
+
+<html>
+    <body background="{%static 'assets/images/germany3-sc.png' %}">
+         <h8>filler</h8>
+    </body>
+</html>
+
+
+
+<div class="video">
+        <h6>Verbs</h6>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AJxieXyATaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="container">
+    <h6>Verb Conjugations</h6>
+    <img src="{%static 'assets/images/german-verbs.png' %}">
+</div>
+
+<div class="video" >
+    <h6>Vocabulary</h6>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cl42wTJyXVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="{%static 'vendor/jquery/jquery.min.js' }"></script>
+  <script src="{%static 'vendor/bootstrap/js/bootstrap.min.js' }"></script>
+
+  <script src="{%static 'assets/js/isotope.min.js' }"></script>
+  <script src="{%static 'assets/js/owl-carousel.js' }"></script>
+  <script src="{%static 'assets/js/wow.js' }"></script>
+  <script src="{%static 'assets/js/tabs.js' }"></script>
+  <script src="{%static 'assets/js/popup.js' }"></script>
+  <script src="{%static 'assets/js/custom.js' }"></script>
+  <script>
+    setTimeout(function(){
+        $('.loader').fadeToggle();
+    }, 1500);
+
+  	$("a[href='#top']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+    $('.owl-what-they-say').owlCarousel({
+      items:2,
+      loop:true,
+      dots: false,
+      nav: false,
+      autoplay: true,
+      margin:30,
+        responsive:{
+          0:{
+            items:1
+          },
+          767:{
+            items:1
+          },
+          1200:{
+            items:2
+          },
+          1600:{
+            items:2
+          }
+        }
+    })
+  </script>
+
+</body>
+</html>
